@@ -1,4 +1,4 @@
-import initScrollSuave from "./modules/scroll-suave.js";
+import SmoothScroll from "./modules/smooth-scroll.js";
 import initAnimationScroll from "./modules/animacao-scroll.js"
 import initAccordion from "./modules/accordion.js"
 import initTabNav from "./modules/nav-tab.js";
@@ -10,7 +10,10 @@ import initDateObject from "./modules/date-object.js";
 import initFetchAnimals from "./modules/fetch-animais.js";
 
 
-initScrollSuave();
+const scrollSuave = new SmoothScroll('[data-menu="suave"] a[href^="#"]');
+scrollSuave.init();
+
+
 initAnimationScroll();
 initAccordion();
 initTabNav();
