@@ -5,8 +5,8 @@ import SmoothScroll from "./modules/smooth-scroll.js";
 import TabNav from "./modules/nav-tab.js";
 import ToolTip from "./modules/tooltip.js";
 import ShowScroll from "./modules/show-scroll.js";
+import DropDownMenu from "./modules/dropdown-menu.js";
 
-import initDropDownMenu from "./modules/dropdown-menu.js";
 import initMenuMobile from "./modules/menu-mobile.js";
 import initDateObject from "./modules/date-object.js";
 
@@ -31,6 +31,8 @@ createNumbersAnimals('../../animals-api.json' ,'.numeros-grid');
 const showScroll = new ShowScroll('[data-anime="scroll"]');
 showScroll.init();
 
-initDropDownMenu();
+const dropDownMenu = new DropDownMenu('[data-dropdown]');
+dropDownMenu.init();
+
 initMenuMobile();
 initDateObject();
