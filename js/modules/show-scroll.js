@@ -1,8 +1,10 @@
+import debounce from "./debounce.js";
+
 export default class ShowScroll{
   constructor(list) {
     this.sections = document.querySelectorAll(list);
     this.windowAHalf = window.innerHeight * 0.6;
-    this.checkDistance = this.checkDistance.bind(this);
+    this.checkDistance = debounce(this.checkDistance.bind(this), 50);
   }
 
   // Pega a distância de cada item em relação ao topo do site
