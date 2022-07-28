@@ -11,7 +11,6 @@ export default class ShowScroll{
   getDistance() {
     this.distance = [...this.sections].map((section) => {
       const offset = section.offsetTop;
-      console.log(offset)
       return {
         element: section,
         offset: Math.floor(offset - this.windowAHalf),
