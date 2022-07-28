@@ -6,8 +6,8 @@ import TabNav from "./modules/nav-tab.js";
 import ToolTip from "./modules/tooltip.js";
 import ShowScroll from "./modules/show-scroll.js";
 import DropDownMenu from "./modules/dropdown-menu.js";
+import MenuMobile from "./modules/menu-mobile.js";
 
-import initMenuMobile from "./modules/menu-mobile.js";
 import initDateObject from "./modules/date-object.js";
 
 
@@ -34,5 +34,7 @@ showScroll.init();
 const dropDownMenu = new DropDownMenu('[data-dropdown]');
 dropDownMenu.init();
 
-initMenuMobile();
+const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
+menuMobile.init();
+
 initDateObject();
