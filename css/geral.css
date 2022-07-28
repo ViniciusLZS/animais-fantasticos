@@ -267,7 +267,7 @@ body{
   margin-left: 4px;
   border: 1px solid #000;
 }
-[data-semana].aberto::after {
+[data-semana].open::after {
   background: #3F4;
 }
 

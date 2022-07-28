@@ -7,8 +7,7 @@ import ToolTip from "./modules/tooltip.js";
 import ShowScroll from "./modules/show-scroll.js";
 import DropDownMenu from "./modules/dropdown-menu.js";
 import MenuMobile from "./modules/menu-mobile.js";
-
-import initDateObject from "./modules/date-object.js";
+import DateTool from "./modules/date-tool.js";
 
 
 const scrollSuave = new SmoothScroll('[data-menu="suave"] a[href^="#"]');
@@ -37,4 +36,5 @@ dropDownMenu.init();
 const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
 menuMobile.init();
 
-initDateObject();
+const dateTool = new DateTool('[data-semana]', 'open');
+dateTool.init();
