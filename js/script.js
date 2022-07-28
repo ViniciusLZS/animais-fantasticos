@@ -25,7 +25,7 @@ modal.init();
 const tooltip = new ToolTip('[data-tooltip]');
 tooltip.init();
 
-createNumbersAnimals('../../animals-api.json' ,'.numeros-grid');
+createNumbersAnimals('./animals-api.json' ,'.numeros-grid');
 
 const showScroll = new ShowScroll('[data-anime="scroll"]');
 showScroll.init();
