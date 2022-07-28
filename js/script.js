@@ -3,11 +3,11 @@ import Accordion from "./modules/accordion.js";
 import TabNav from "./modules/nav-tab.js";
 import Modal from "./modules/modal.js";
 import ToolTip from "./modules/tooltip.js";
+import createNumbersAnimals from "./modules/create-numbers-animals.js";
 
 import initDropDownMenu from "./modules/dropdown-menu.js";
 import initMenuMobile from "./modules/menu-mobile.js";
 import initDateObject from "./modules/date-object.js";
-import initFetchAnimals from "./modules/fetch-animais.js";
 
 import initAnimationScroll from "./modules/animacao-scroll.js";
 
@@ -26,8 +26,9 @@ modal.init();
 const tooltip = new ToolTip('[data-tooltip]');
 tooltip.init();
 
+createNumbersAnimals('../../animals-api.json' ,'.numeros-grid');
+
 initDropDownMenu();
 initMenuMobile();
 initDateObject();
-initFetchAnimals();
 initAnimationScroll();
