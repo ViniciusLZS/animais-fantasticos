@@ -20,6 +20,11 @@
 
 @media(max-width: 700px) {
   .numeros-grid {
-    grid-column: 1;
+    grid-column: 2 / -1;
+  }
+}
+@media(max-width: 600px) {
+  .numeros-grid {
+    grid-column: 1 / -1;
   }
 }
