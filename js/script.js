@@ -8,7 +8,7 @@ import ShowScroll from "./modules/show-scroll.js";
 import DropDownMenu from "./modules/dropdown-menu.js";
 import MenuMobile from "./modules/menu-mobile.js";
 import DateTool from "./modules/date-tool.js";
-
+import SlideNav from "./modules/slide";
 
 const scrollSuave = new SmoothScroll('[data-menu="suave"] a[href^="#"]');
 scrollSuave.init();
@@ -38,3 +38,7 @@ menuMobile.init();
 
 const dateTool = new DateTool('[data-semana]', 'open');
 dateTool.init();
+
+const slide = new SlideNav('.slide-wrapper', '.slide');
+slide.init();
+slide.addControl('.custom-controls');
