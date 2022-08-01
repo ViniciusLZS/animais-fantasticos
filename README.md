@@ -4,11 +4,11 @@
 
 
 <div align="center"> 
-<a href="https://viniciuslzs.github.io/slide/" target="_blank"><img src="https://user-images.githubusercontent.com/99357388/182052837-5beb29b3-1059-4808-9139-8b87a44267ad.png" max-width="1000" max-height="1000px"/></a>
+<a href="https://viniciuslzs.github.io/animais-fantasticos/" target="_blank"><img src="https://user-images.githubusercontent.com/99357388/182052837-5beb29b3-1059-4808-9139-8b87a44267ad.png" max-width="1000" max-height="1000px"/></a>
 </div>
 
 
-<p align="center"> Confira o projeto <a href="https://viniciuslzs.github.io/slide/">aqui</a></p>
+<p align="center"> Confira o projeto <a href="https://viniciuslzs.github.io/animais-fantasticos//">aqui</a></p>
 
 <h2>:rocket:Ferramentas</h2>
 <ul>
