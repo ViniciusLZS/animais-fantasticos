@@ -10,7 +10,7 @@
 
 <p align="center"> Confira o projeto <a href="https://viniciuslzs.github.io/animais-fantasticos//">aqui</a></p>
 
-<h2>:rocket:Ferramentas</h2>
+<h2>:rocket:Tecnologias</h2>
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
